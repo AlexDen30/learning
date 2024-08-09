@@ -1,0 +1,71 @@
+// Place your key bindings in this file to override the defaults
+[
+	{
+		"key": "ctrl+~",
+		"command": "workbench.action.terminal.toggleTerminal",
+		"when": "terminal.active"
+	},
+	// создание файлов / папок
+	{
+		"key": "a",
+		"command": "explorer.newFile",
+		"when": "filesExplorerFocus && !inputFocus"
+	},
+	{
+		"key": "shift+a",
+		"command": "explorer.newFolder",
+		"when": "filesExplorerFocus && !inputFocus"
+	},
+	{
+		"key": "alt+enter",
+		"command": "problems.action.showQuickFixes",
+		"when": "problemFocus"
+	},
+	// file explorer
+	{
+		"key": "ctrl+e",
+		"command": "workbench.files.action.focusFilesExplorer",
+		"when": "!explorerViewletVisible"
+	},
+	{
+		"key": "ctrl+e",
+		"command": "workbench.action.toggleSidebarVisibility",
+		"when": "explorerViewletVisible"
+	},
+	{
+		"key": "ctrl+shift+e",
+		"command": "workbench.view.explorer"
+	},
+	{
+		"key": "ctrl+shift+c",
+		"command": "list.collapseAll",
+		"when": "listFocus && !inputFocus && !treestickyScrollFocused"
+	},
+	{
+		"key": "ctrl+shift+s",
+		"command": "workbench.action.toggleStatusbarVisibility"
+	},
+	{
+		"key": "ctrl+k ctrl+b",
+		"command": "-workbench.action.toggleSidebarVisibility"
+	},
+	{
+		"key": "ctrl+[Comma]",
+		"command": "breadcrumbs.focusAndSelect"
+	},
+	// git
+	{
+		"key": "ctrl+shift+g",
+		"command": "workbench.view.scm",
+		"when": "workbench.scm.active"
+	},
+	// step inside 
+	{
+		"key": "ctrl+b",
+		"command": "editor.action.revealDefinition"
+	},
+	{
+		"key": "ctrl+shift+b",
+		"command": "editor.action.goToTypeDefinition"
+	},
+]

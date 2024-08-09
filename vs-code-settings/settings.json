@@ -1,0 +1,86 @@
+{
+	"workbench.colorTheme": "Moegi Dark",
+	"workbench.iconTheme": "quill-icons",
+	"workbench.productIconTheme": "icons-carbon",
+	"workbench.activityBar.location": "hidden",
+	"workbench.layoutControl.enabled": false,
+	"workbench.editor.editorActionsLocation": "hidden",
+	"workbench.editor.empty.hint": "hidden",
+
+	// основные
+	"window.openFilesInNewWindow": "off",
+	"editor.tabSize": 2,
+	"editor.folding": false,
+	"editor.insertSpaces": false,
+	"editor.smoothScrolling": true,
+	"editor.minimap.enabled": false,
+	"editor.detectIndentation": true,
+	"editor.suggestSelection": "first",
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.scrollBeyondLastLine": true,
+	"editor.linkedEditing": true,
+	"editor.wordWrap": "bounded",
+	"editor.wrappingIndent": "same",
+	"editor.wordWrapColumn": 80,
+
+	// авто закрытие тегов
+	"html.autoClosingTags": true,
+	"javascript.autoClosingTags": true,
+	"typescript.autoClosingTags": true,
+	"editor.quickSuggestionsDelay": 0,
+	"html.completion.attributeDefaultValue": "singlequotes",
+	
+	// настройки окна - внешний вид
+	"editor.glyphMargin": true,
+	"editor.bracketPairColorization.enabled": false,
+	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.vertical": "hidden",
+	"editor.scrollbar.verticalScrollbarSize": 0,
+	"editor.scrollbar.horizontalScrollbarSize": 0,
+	"window.density.editorTabHeight": "compact",
+	"editor.accessibilitySupport": "off",
+	"symbols.hidesExplorerArrows": "false",
+
+	// курсор
+	"editor.cursorStyle": "line-thin",
+	"editor.cursorSmoothCaretAnimation": "explicit",
+
+	// observer
+	"explorer.confirmDelete": false,
+	"explorer.compactFolders": false,
+	"workbench.startupEditor": "newUntitledFile",
+
+	// disable breadcrumbs
+	"breadcrumbs.icons": false,
+	"breadcrumbs.showKeys": false,
+	"breadcrumbs.showFiles": false,
+	"breadcrumbs.symbolPath": "off",
+	"breadcrumbs.showArrays": false,
+	"breadcrumbs.showEvents": false,
+	"breadcrumbs.showFields": false,
+	"breadcrumbs.showClasses": false,
+	"breadcrumbs.showMethods": false,
+	"breadcrumbs.showBooleans": false,
+	"breadcrumbs.showFunctions": false,
+	"breadcrumbs.showConstants": false,
+	"breadcrumbs.showEnumMembers": false,
+	"breadcrumbs.showConstructors": false,
+
+	// TS
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"javascript.preferences.quoteStyle": "single",
+	"javascript.format.semicolons": "insert",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"typescript.preferences.quoteStyle": "single",
+	"typescript.format.semicolons": "insert",
+	"js/ts.implicitProjectConfig.experimentalDecorators": true,
+
+	// прочее
+	"security.workspace.trust.untrustedFiles": "open",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"files.defaultLanguage": "plaintext",
+	"window.confirmBeforeClose": "keyboardOnly",
+	"editor.gotoLocation.multipleDefinitions": "goto",
+	"github.copilot.editor.enableAutoCompletions": true,
+	"workbench.statusBar.visible": false,
+}
